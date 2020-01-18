@@ -1,0 +1,7 @@
+{
+  "hogwarts/unit/test_div.py::test_div_expection": true,
+  "hogwarts/unit/test_div.py::test_div_float": true,
+  "hogwarts/unit/test_div.py::test_div_zero": true,
+  "hogwarts/unit/test_pytest.py::TestClass::test_two": true,
+  "hogwarts/unit/test_pytest.py::test_answer": true
+}
