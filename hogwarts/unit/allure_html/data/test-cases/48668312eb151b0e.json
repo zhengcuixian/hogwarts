@@ -1,0 +1,59 @@
+{
+  "uid" : "48668312eb151b0e",
+  "name" : "test_div_zero",
+  "fullName" : "test_div#test_div_zero",
+  "historyId" : "15b37b0ef5b421a5842f3a5fd1bde553",
+  "time" : {
+    "start" : 1577231446196,
+    "stop" : 1577231446197,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "ZeroDivisionError: division by zero",
+  "statusTrace" : "@pytest.mark.exception\n    def test_div_zero():\n>       assert div(2, 0) == None\n\nunit\\test_div.py:45: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = 2, b = 0\n\n    def div(a, b):\n>       return a/b\nE       ZeroDivisionError: division by zero\n\nunit\\div.py:7: ZeroDivisionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "exception"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "host",
+    "value" : "MS-20170607LVPH"
+  }, {
+    "name" : "thread",
+    "value" : "3212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "exception" ]
+  },
+  "source" : "48668312eb151b0e.json",
+  "parameterValues" : [ ]
+}

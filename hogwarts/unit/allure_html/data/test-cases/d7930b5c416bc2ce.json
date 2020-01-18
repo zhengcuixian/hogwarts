@@ -1,0 +1,59 @@
+{
+  "uid" : "d7930b5c416bc2ce",
+  "name" : "test_div_float",
+  "fullName" : "test_div#test_div_float",
+  "historyId" : "e762b4f582d3b5b7422ee9f10d1d4a6f",
+  "time" : {
+    "start" : 1577231446067,
+    "stop" : 1577231446069,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3.3333333333333335 == 3.3333333\n +  where 3.3333333333333335 = div(10, 3)",
+  "statusTrace" : "@pytest.mark.happy\n    def test_div_float():\n>       assert div(10, 3) == 3.3333333\nE       assert 3.3333333333333335 == 3.3333333\nE        +  where 3.3333333333333335 = div(10, 3)\n\nunit\\test_div.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "happy"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "host",
+    "value" : "MS-20170607LVPH"
+  }, {
+    "name" : "thread",
+    "value" : "3212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "happy" ]
+  },
+  "source" : "d7930b5c416bc2ce.json",
+  "parameterValues" : [ ]
+}
